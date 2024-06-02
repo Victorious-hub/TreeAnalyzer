@@ -1,0 +1,10 @@
+{% extends "main.html" %}
+{% block title %}Tree Analyzer{% endblock title %}
+
+{% block content %}
+    <form method="GET" action="" enctype='multipart/form-data' >
+        <ul>
+            <img src="data:image/png;base64,{{ url }}" height="600" width="1600">
+        </ul>
+    </form>
+{% endblock content %}
