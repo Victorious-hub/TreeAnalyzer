@@ -5,8 +5,8 @@ import time
 from urllib import parse
 
 from matplotlib import pyplot as plt
-from avltree import AVLTree
-from rbtree import RedBlackTree
+from avltree import AVLTree # type: ignore
+from rbtree import RedBlackTree # type: ignore
 from fastapi import FastAPI # type: ignore
 from fastapi import FastAPI, Request  # type: ignore
 from fastapi.responses import HTMLResponse # type: ignore
